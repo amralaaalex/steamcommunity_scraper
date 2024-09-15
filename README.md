@@ -36,26 +36,26 @@ here's a list of points that should be implemented in case it goes to production
 ## Scrapy Crawler
 
 ### Usage
-change directory to `scrapy_crawler`
-`cd scrapy_crawler`
-build it 
-`docker build -t scrapy-crawler .`
-run it 
-`docker run -d --name scrapy_crawler scrapy-crawler`
-check the logs
-`docker logs -f scrapy_crawler`
+change directory to `scrapy_crawler`  
+`cd scrapy_crawler`  
+build it  
+`docker build -t scrapy-crawler .`  
+run it  
+`docker run -d --name scrapy_crawler scrapy-crawler`  
+check the logs  
+`docker logs -f scrapy_crawler`  
 
 
 ## Selenium Crawler
 
 ### Usage
-change directory to `selenium_crawler`
-build it 
-`docker build -t selenium-crawler .`
-run it 
-`docker run -d --name selenium_crawler selenium-crawler`
-check the logs
-`docker logs -f selenium_crawler`
+change directory to `selenium_crawler`  
+build it  
+`docker build -t selenium-crawler .`  
+run it  
+`docker run -d --name selenium_crawler selenium-crawler`  
+check the logs 
+`docker logs -f selenium_crawler`  
 
 ## Check the Scraped Data
 you can find a file `parameters.ini`, it has URI to access the db and see the data, you can just paste it to mongoDB Compass application. 
