@@ -54,7 +54,7 @@ build it
 `docker build -t selenium-crawler .`  
 run it  
 `docker run -d --name selenium_crawler selenium-crawler`  
-check the logs 
+check the logs  
 `docker logs -f selenium_crawler`  
 
 ## Check the Scraped Data
