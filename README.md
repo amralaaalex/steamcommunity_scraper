@@ -1,0 +1,1 @@
+# steamcommunity_scraper
