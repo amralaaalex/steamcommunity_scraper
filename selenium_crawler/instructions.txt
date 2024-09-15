@@ -1,0 +1,11 @@
+build it 
+`docker build -t selenium-crawler .`
+run it 
+`docker run -d --name selenium_crawler selenium-crawler`
+check the logs
+`docker logs -f selenium_crawler`
+
+stop it 
+`docker stop selenium_crawler`
+remove it 
+`docker rm selenium_crawler`

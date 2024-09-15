@@ -1,0 +1,11 @@
+build it 
+`docker build -t scrapy-crawler .`
+run it 
+`docker run -d --name scrapy_crawler scrapy-crawler`
+check the logs
+`docker logs -f scrapy_crawler`
+
+stop it 
+`docker stop scrapy_crawler`
+remove it 
+`docker rm scrapy_crawler`

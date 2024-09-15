@@ -1,0 +1,4 @@
+pymongo==4.4.1
+selenium==4.24.0
+seleniumbase
+webdriver_manager==4.0.2
